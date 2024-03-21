@@ -1126,10 +1126,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unlock-protocol/contracts@npm:0.0.23":
-  version: 0.0.23
-  resolution: "@unlock-protocol/contracts@npm:0.0.23"
-  checksum: 10/8a8344d573c0d86e449f9c3a5f07be60c196e165f8a86f2287563d13f8ad56574871798de3bfa8eb0bdc774bfb7eb0e6b7a7c8bf917242707b29ed4d3258fbf5
+"@unlock-protocol/contracts@npm:latest":
+  version: 0.0.25
+  resolution: "@unlock-protocol/contracts@npm:0.0.25"
+  checksum: 10/2dea99b0e60c8f5587fae5b27095ebe5d3a3727675b168970b326bce37eabdc4eca2c7ca1e9fb8f9224622265708e40865a734b12be89d150091a07c36ea8473
   languageName: node
   linkType: hard
 
@@ -1138,8 +1138,8 @@ __metadata:
   resolution: "@unlock-protocol/eth-node@workspace:."
   dependencies:
     "@nomiclabs/hardhat-ethers": "npm:2.2.3"
-    "@unlock-protocol/contracts": "npm:0.0.23"
-    "@unlock-protocol/hardhat-plugin": "npm:0.1.4"
+    "@unlock-protocol/contracts": "npm:latest"
+    "@unlock-protocol/hardhat-plugin": "npm:latest"
     eslint: "npm:8.54.0"
     ethers: "npm:5.7.2"
     hardhat: "npm:2.20.1"
@@ -1149,15 +1149,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@unlock-protocol/hardhat-plugin@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@unlock-protocol/hardhat-plugin@npm:0.1.4"
+"@unlock-protocol/hardhat-plugin@npm:latest":
+  version: 0.1.6
+  resolution: "@unlock-protocol/hardhat-plugin@npm:0.1.6"
   dependencies:
     "@nomiclabs/hardhat-ethers": "npm:2.2.3"
   peerDependencies:
     "@unlock-protocol/contracts": "*"
     ethers: 5.7.2
-  checksum: 10/504d912159f9ea42a5b13cf92d7175f3392009b515395477cafdb7dcfe413ba4055321d4ed45f73d2a18c225e73a3dfbfb4cdb50b4274c14841ac8fac4f254af
+  checksum: 10/d5da9b17d998678732f302f40d1f5c01a8c335f0da9c243add474a7d79f65be745a35b2ddb52216c3fc84fc7394a0993d261b4cf68cf98a8d4a6c404082abf6a
   languageName: node
   linkType: hard
 
