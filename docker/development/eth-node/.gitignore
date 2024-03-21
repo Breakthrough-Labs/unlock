@@ -1,5 +1,4 @@
 cache
-.yarn
-!.yarn/releases
+.yarn/install-state.gz
 networks.json
 packages
