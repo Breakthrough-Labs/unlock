@@ -36,7 +36,7 @@ const generateLocalhostNetworkFile = ({
     unlockAddress,
   }
 
-  // log for debug purposes
+  // log for debug purposes on CI
   console.log(localhost)
 
   // output to js file
@@ -51,17 +51,7 @@ export default localhost
 }
 
 const run = async () => {
-  const [networkInfoPath, subgraphEnpoint] = process.argv.slice(2)
-
-  const networkInfo = await fs.readJSON(networkInfoPath)
-  const {
-    localhost: {
-      Unlock: { address: unlockAddress },
-    },
-  } = networkInfo
-
-  console.log(networkInfo)
-
+  const [unlockAddress, subgraphEnpoint] = process.argv.slice(2)
   console.log(`Creating localhost file for unlockAddress ${unlockAddress}`)
 
   if (!unlockAddress) {
