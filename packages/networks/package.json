@@ -17,7 +17,6 @@
     "lint": "eslint --resolve-plugins-relative-to ../eslint-config --ext .tsx,.ts,.js src/",
     "build": "tsup src/index.ts --dts --format esm,cjs",
     "check-tokens": "tsx ./bin/check-tokens",
-    "create-localhost": "tsx ./bin/localhost",
     "clean": "rm -rf ./dist",
     "create-localhost": "tsx ./bin/localhost",
     "unlock-address": "tsx ./bin/readSubgraphInfo",
@@ -37,8 +36,7 @@
     "eslint": "8.54.0",
     "fs-extra": "11.2.0",
     "tsup": "8.0.2",
-    "typescript": "5.3.3",
-    "fs-extra": "11.2.0"
+    "typescript": "5.3.3"
   },
   "files": [
     "dist"
